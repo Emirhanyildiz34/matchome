@@ -1,0 +1,70 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.project
+.settings/
+.vscode/
+.env
+.env.*
+
+# Flutter/Dart-specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android-specific
+android/**/gradle-wrapper.jar
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/key.properties
+android/*.iml
+
+# iOS-specific
+ios/.symlinks/
+ios/Pods/
+ios/Podfile.lock
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/.generated_files/
+
+# Web-specific
+web/index.html.d
+
+# Windows-specific
+windows/flutter/ephemeral/
+
+# macOS-specific
+macos/Flutter/ephemeral/
+
+# Linux-specific
+linux/flutter/ephemeral/
+
+# Temporary files (like log and analysis files)
+analyze_full.txt
+analyze_output.txt
+analyze_result.txt
+apk_build.txt
+build_error.txt
+flutter_trace.txt
+run_error.txt
+run_log.txt
+test_results.txt
+test_results_full.txt
